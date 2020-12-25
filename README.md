@@ -1,2 +1,2 @@
-# social.ctrlaltdog.xyz
+ctrlaltdog.xyz
 webbed site
