@@ -21,6 +21,7 @@ body {
 }
 img {
     color: #FFFFFF;
+    max-width: 100%;
 }
 .topnav {
     padding: 10px;
@@ -57,4 +58,20 @@ img {
 }
 .content h1 {
     text-align: center;
+}
+.photogrid img {
+    width: 100%;
+    height: auto;
+}
+.row {
+  display: flex;
+  padding: 0 4px;
+}
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
