@@ -2,7 +2,7 @@ body {
     background-color: #140A14;
 }
 .page {
-    max-width: 600px;
+    max-width: 80%;
     padding: 20px;
     color: white;
     background-color: #2C162C;
@@ -18,6 +18,10 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.header img {
+    max-width: 50%;
+    padding: 10px 0px;
 }
 img {
     color: #FFFFFF;
@@ -44,11 +48,10 @@ img {
     font-size: 20px;
     text-decoration: underline;
 }
-.topnav a.active {
+.topnav a:active {
     color: #FFFFFF;
 }
 .content {
-    max-width: 600px;
     padding: 10px;
     color: white;
     background-color: #2C162C;
@@ -59,16 +62,17 @@ img {
 .content h1 {
     text-align: center;
 }
-.photogrid img {
-    max-width: 100%;
-    height: auto;
+.content p {
+    text-align: center;
 }
 .row {
   display: flex;
+  flex-wrap: wrap;
   padding: 0 4px;
 }
 .column {
-  flex: 50%;
+  flex: 5%;
+  max-width: 50%;
   padding: 0 4px;
 }
 .column img {
