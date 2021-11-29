@@ -1,2 +1,2 @@
-ctrlaltdog.xyz
+ctrlaltdog.com
 webbed site
