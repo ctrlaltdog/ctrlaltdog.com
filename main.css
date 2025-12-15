@@ -98,6 +98,20 @@ img {
   padding: 0 4px;
 }
 .column img {
-  margin-top: 8px;
+  margin-top: 0px;
   vertical-align: middle;
+  width: 100% !important;
+  height: auto !important;
+}
+.imagebox {
+    border-color: #844284;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 8px;
+}
+.imagebox p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
 }
